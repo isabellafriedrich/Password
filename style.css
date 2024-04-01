@@ -10,6 +10,10 @@
     --roboto-mono: 'Roboto Mono', monospace;
 }
 
+*{
+    font-weight: 400;
+}
+
 body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
@@ -54,25 +58,28 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .parametro{
     background-color: var(--fundo-texto);
     border: 2px solid var(--borda);
     margin-top: 32px;
     padding: 24px;
 }
+
 .parametro-titulo{
     font-family: var(--roboto-mono);
     font-size: 28px;
 }
+
 .parametro-senha__titulo{
     font-size:24px;
 }
+
 .parametro-coluna__senha{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
 .parametro-senha{
     width: 50%;
     margin: 0 auto;
@@ -136,6 +143,7 @@ label{
     display: flex;
     justify-content: space-between;
 }
+
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
